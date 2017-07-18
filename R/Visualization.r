@@ -88,6 +88,7 @@ Visualization <- function(df, target, var)
   RRate$cum_non_resp_pct = percent(RRate$cum_non_resp_pct)
   
   View(RRate)
+  RRate
 }
 
 
